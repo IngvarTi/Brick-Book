@@ -1,0 +1,1381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.tibro.brickcatalog.StarWars"
+    tools:showIn="@layout/activity_star_wars"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_weight="1"  >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+        <ImageView
+            android:id="@+id/imageStar75074"
+            android:background="@drawable/star75074"
+            style="@style/lego_image"
+            android:clickable="false" />
+
+        <TextView
+            android:text="@string/name_star75074"
+            android:id="@+id/textView"
+            style="@style/set_name"
+            android:layout_toRightOf="@+id/imageStar75074"
+            android:layout_toEndOf="@+id/imageStar75074"
+            tools:ignore="DuplicateIds"/>
+
+        <TextView
+            android:text="@string/num_star75074"
+            android:id="@+id/textView2"
+            style="@style/set_number"
+            android:layout_toRightOf="@+id/imageStar75074"
+            android:layout_toEndOf="@+id/imageStar75074"
+            tools:ignore="DuplicateIds"/>
+
+        <!--<Spinner-->
+        <!--android:id="@+id/spinnerCre31027"-->
+        <!--style="@style/spinner_book" />-->
+
+        <com.dd.CircularProgressButton
+            style="@style/button"
+            android:id="@+id/butStar75074"
+            app:cpb_textComplete="@string/open"
+            app:cpb_textIdle="@string/download"/>
+
+        <com.dd.CircularProgressButton
+            app:cpb_textIdle="@string/delete"
+            android:id="@+id/dStar75074"
+            style="@style/button_delete"/>
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75075"
+                android:background="@drawable/star75075"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75075"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75075"
+                android:layout_toEndOf="@+id/imageStar75075"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75075"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75075"
+                android:layout_toEndOf="@+id/imageStar75075"
+                tools:ignore="DuplicateIds"/>
+
+            <!--<Spinner-->
+            <!--android:id="@+id/spinnerCre31027"-->
+            <!--style="@style/spinner_book" />-->
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75075"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75075"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75078"
+                android:background="@drawable/star75078"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75078"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75078"
+                android:layout_toEndOf="@+id/imageStar75078"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75078"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75078"
+                android:layout_toEndOf="@+id/imageStar75078"
+                tools:ignore="DuplicateIds"/>
+
+            <!--<Spinner-->
+            <!--android:id="@+id/spinnerCre31027"-->
+            <!--style="@style/spinner_book" />-->
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75078"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75078"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75079"
+                android:background="@drawable/star75079"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75079"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75079"
+                android:layout_toEndOf="@+id/imageStar75079"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75079"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75079"
+                android:layout_toEndOf="@+id/imageStar75079"
+                tools:ignore="DuplicateIds"/>
+
+            <!--<Spinner-->
+            <!--android:id="@+id/spinnerCre31027"-->
+            <!--style="@style/spinner_book" />-->
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75079"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75079"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75082"
+                android:background="@drawable/star75082"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75082"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75082"
+                android:layout_toEndOf="@+id/imageStar75082"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75082"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75082"
+                android:layout_toEndOf="@+id/imageStar75082"
+                tools:ignore="DuplicateIds"/>
+
+            <!--<Spinner-->
+            <!--android:id="@+id/spinnerCre31027"-->
+            <!--style="@style/spinner_book" />-->
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75082"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75082"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75088"
+                android:background="@drawable/star75088"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75088"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75088"
+                android:layout_toEndOf="@+id/imageStar75088"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75088"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75088"
+                android:layout_toEndOf="@+id/imageStar75088"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75088"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75088"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75089"
+                android:background="@drawable/star75089"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75089"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75089"
+                android:layout_toEndOf="@+id/imageStar75089"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75089"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75089"
+                android:layout_toEndOf="@+id/imageStar75089"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75089"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75089"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75091"
+                android:background="@drawable/star75091"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75091"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75091"
+                android:layout_toEndOf="@+id/imageStar75091"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75091"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75091"
+                android:layout_toEndOf="@+id/imageStar75091"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75091"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75091"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75092"
+                android:background="@drawable/star75092"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75092"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75092"
+                android:layout_toEndOf="@+id/imageStar75092"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75092"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75092"
+                android:layout_toEndOf="@+id/imageStar75092"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75092"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75092"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75093"
+                android:background="@drawable/star75093"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75093"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75093"
+                android:layout_toEndOf="@+id/imageStar75093"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75093"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75093"
+                android:layout_toEndOf="@+id/imageStar75093"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75093"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75093"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75094"
+                android:background="@drawable/star75094"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75094"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75094"
+                android:layout_toEndOf="@+id/imageStar75094"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75094"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75094"
+                android:layout_toEndOf="@+id/imageStar75094"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75094"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75094"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75099"
+                android:background="@drawable/star75099"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75099"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75099"
+                android:layout_toEndOf="@+id/imageStar75099"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75099"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75099"
+                android:layout_toEndOf="@+id/imageStar75099"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75099"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75099"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75100"
+                android:background="@drawable/star75100"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75100"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75100"
+                android:layout_toEndOf="@+id/imageStar75100"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75100"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75100"
+                android:layout_toEndOf="@+id/imageStar75100"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75100"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75100"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75101"
+                android:background="@drawable/star75101"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75101"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75101"
+                android:layout_toEndOf="@+id/imageStar75101"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75101"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75101"
+                android:layout_toEndOf="@+id/imageStar75101"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75101"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75101"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75102"
+                android:background="@drawable/star75102"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75102"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75102"
+                android:layout_toEndOf="@+id/imageStar75102"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75102"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75102"
+                android:layout_toEndOf="@+id/imageStar75102"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75102"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75102"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75103"
+                android:background="@drawable/star75103"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75103"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75103"
+                android:layout_toEndOf="@+id/imageStar75103"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75103"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75103"
+                android:layout_toEndOf="@+id/imageStar75103"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75103"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75103"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75104"
+                android:background="@drawable/star75104"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75104"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75104"
+                android:layout_toEndOf="@+id/imageStar75104"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75104"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75104"
+                android:layout_toEndOf="@+id/imageStar75104"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75104"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75104"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75105"
+                android:background="@drawable/star75105"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75105"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75105"
+                android:layout_toEndOf="@+id/imageStar75105"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75105"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75105"
+                android:layout_toEndOf="@+id/imageStar75105"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75105"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75105"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75125"
+                android:background="@drawable/star75125"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75125"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75125"
+                android:layout_toEndOf="@+id/imageStar75125"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75125"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75125"
+                android:layout_toEndOf="@+id/imageStar75125"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75125"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75125"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75126"
+                android:background="@drawable/star75126"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75126"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75126"
+                android:layout_toEndOf="@+id/imageStar75126"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75126"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75126"
+                android:layout_toEndOf="@+id/imageStar75126"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75126"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75126"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75127"
+                android:background="@drawable/star75127"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75127"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75127"
+                android:layout_toEndOf="@+id/imageStar75127"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75127"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75127"
+                android:layout_toEndOf="@+id/imageStar75127"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75127"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75127"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75128"
+                android:background="@drawable/star75128"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75128"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75128"
+                android:layout_toEndOf="@+id/imageStar75128"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75128"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75128"
+                android:layout_toEndOf="@+id/imageStar75128"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75128"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75128"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75129"
+                android:background="@drawable/star75129"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75129"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75129"
+                android:layout_toEndOf="@+id/imageStar75129"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75129"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75129"
+                android:layout_toEndOf="@+id/imageStar75129"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75129"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75129"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75130"
+                android:background="@drawable/star75130"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75130"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75130"
+                android:layout_toEndOf="@+id/imageStar75130"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75130"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75130"
+                android:layout_toEndOf="@+id/imageStar75130"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75130"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75130"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75131"
+                android:background="@drawable/star75131"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75131"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75131"
+                android:layout_toEndOf="@+id/imageStar75131"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75131"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75131"
+                android:layout_toEndOf="@+id/imageStar75131"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75131"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75131"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75132"
+                android:background="@drawable/star75132"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75132"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75132"
+                android:layout_toEndOf="@+id/imageStar75132"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75132"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75132"
+                android:layout_toEndOf="@+id/imageStar75132"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75132"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75132"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75133"
+                android:background="@drawable/star75133"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75133"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75133"
+                android:layout_toEndOf="@+id/imageStar75133"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75133"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75133"
+                android:layout_toEndOf="@+id/imageStar75133"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75133"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75133"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75134"
+                android:background="@drawable/star75134"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75134"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75134"
+                android:layout_toEndOf="@+id/imageStar75134"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75134"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75134"
+                android:layout_toEndOf="@+id/imageStar75134"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75134"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75134"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75135"
+                android:background="@drawable/star75135"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75135"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75135"
+                android:layout_toEndOf="@+id/imageStar75135"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75135"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75135"
+                android:layout_toEndOf="@+id/imageStar75135"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75135"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75135"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75136"
+                android:background="@drawable/star75136"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75136"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75136"
+                android:layout_toEndOf="@+id/imageStar75136"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75136"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75136"
+                android:layout_toEndOf="@+id/imageStar75136"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75136"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75136"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75137"
+                android:background="@drawable/star75137"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75137"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75137"
+                android:layout_toEndOf="@+id/imageStar75137"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75137"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75137"
+                android:layout_toEndOf="@+id/imageStar75137"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75137"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75137"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageStar75138"
+                android:background="@drawable/star75138"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_star75138"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageStar75138"
+                android:layout_toEndOf="@+id/imageStar75138"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_star75138"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageStar75138"
+                android:layout_toEndOf="@+id/imageStar75138"
+                tools:ignore="DuplicateIds"/>
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butStar75138"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dStar75138"
+                style="@style/button_delete"/>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <com.appodeal.ads.BannerView
+            android:id="@+id/appodealBannerViewStarWars"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+
+</LinearLayout>

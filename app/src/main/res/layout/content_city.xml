@@ -1,0 +1,1986 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.tibro.brickcatalog.City"
+    tools:showIn="@layout/activity_city"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60044"
+                    android:background="@drawable/city60044"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60044"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60044"
+                    android:layout_toEndOf="@+id/imageCity60044"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:text="@string/num_city60044"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60044"
+                    android:layout_toEndOf="@+id/imageCity60044"
+                    tools:ignore="DuplicateIds" />
+
+                    <Spinner
+                    android:id="@+id/spinnerCity60044"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60044"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60044"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60047"
+                    android:background="@drawable/city60047"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60047"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60047"
+                    android:layout_toEndOf="@+id/imageCity60047"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:text="@string/num_city60047"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60047"
+                    android:layout_toEndOf="@+id/imageCity60047"
+                    tools:ignore="DuplicateIds" />
+
+                <Spinner
+                    android:id="@+id/spinnerCity60047"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60047"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60047"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60050"
+                    android:background="@drawable/city60050"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60050"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60050"
+                    android:layout_toEndOf="@+id/imageCity60050"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:text="@string/num_city60050"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60050"
+                    android:layout_toEndOf="@+id/imageCity60050"
+                    tools:ignore="DuplicateIds" />
+
+                <Spinner
+                    android:id="@+id/spinnerCity60050"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60050"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60050"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60051"
+                    android:background="@drawable/city60051"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60051"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60051"
+                    android:layout_toEndOf="@+id/imageCity60051"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:text="@string/num_city60051"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60051"
+                    android:layout_toEndOf="@+id/imageCity60051"
+                    tools:ignore="DuplicateIds" />
+
+                <Spinner
+                    android:id="@+id/spinnerCity60051"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60051"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60051"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60052"
+                    android:background="@drawable/city60052"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60052"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60052"
+                    android:layout_toEndOf="@+id/imageCity60052"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:text="@string/num_city60052"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60052"
+                    android:layout_toEndOf="@+id/imageCity60052"
+                    tools:ignore="DuplicateIds" />
+
+                <Spinner
+                    android:id="@+id/spinnerCity60052"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60052"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60052"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60067"
+                    android:background="@drawable/city60067"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60067"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60067"
+                    android:layout_toEndOf="@+id/imageCity60067"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:text="@string/num_city60067"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60067"
+                    android:layout_toEndOf="@+id/imageCity60067"
+                    tools:ignore="DuplicateIds" />
+
+                <Spinner
+                    android:id="@+id/spinnerCity60067"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60067"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60067"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60069"
+                    android:background="@drawable/city60069"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60069"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60069"
+                    android:layout_toEndOf="@+id/imageCity60069"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:text="@string/num_city60069"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60069"
+                    android:layout_toEndOf="@+id/imageCity60069"
+                    tools:ignore="DuplicateIds" />
+
+                <Spinner
+                    android:id="@+id/spinnerCity60069"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60069"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60069"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60072"
+                    android:background="@drawable/city60072"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60072"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60072"
+                    android:layout_toEndOf="@+id/imageCity60072"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:text="@string/num_city60072"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60072"
+                    android:layout_toEndOf="@+id/imageCity60072"
+                    tools:ignore="DuplicateIds" />
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/spinnerCity60072"-->
+                    <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60072"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60072"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60073"
+                    android:background="@drawable/city60073"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60073"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60073"
+                    android:layout_toEndOf="@+id/imageCity60073"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:text="@string/num_city60073"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60073"
+                    android:layout_toEndOf="@+id/imageCity60073"
+                    tools:ignore="DuplicateIds" />
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnerCity60072"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60073"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60073"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60074"
+                    android:background="@drawable/city60074"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60074"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60074"
+                    android:layout_toEndOf="@+id/imageCity60074"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:text="@string/num_city60074"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60074"
+                    android:layout_toEndOf="@+id/imageCity60074"
+                    tools:ignore="DuplicateIds" />
+
+                    <Spinner
+                    android:id="@+id/spinnerCity60074"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60074"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60074"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60076"
+                    android:background="@drawable/city60076"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60076"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60076"
+                    android:layout_toEndOf="@+id/imageCity60076"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:text="@string/num_city60076"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60076"
+                    android:layout_toEndOf="@+id/imageCity60076"
+                    tools:ignore="DuplicateIds" />
+
+                <Spinner
+                    android:id="@+id/spinnerCity60076"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60076"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60076"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60077"
+                    android:background="@drawable/city60077"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60077"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60077"
+                    android:layout_toEndOf="@+id/imageCity60077"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:text="@string/num_city60077"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60077"
+                    android:layout_toEndOf="@+id/imageCity60077"
+                    tools:ignore="DuplicateIds" />
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/spinnerCity60077"-->
+                    <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60077"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60077"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60078"
+                    android:background="@drawable/city60078"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60078"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60078"
+                    android:layout_toEndOf="@+id/imageCity60078"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:text="@string/num_city60078"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60078"
+                    android:layout_toEndOf="@+id/imageCity60078"
+                    tools:ignore="DuplicateIds" />
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnerCity60077"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60078"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60078"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60079"
+                    android:background="@drawable/city60079"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60079"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60079"
+                    android:layout_toEndOf="@+id/imageCity60079"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:text="@string/num_city60079"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60079"
+                    android:layout_toEndOf="@+id/imageCity60079"
+                    tools:ignore="DuplicateIds" />
+
+                    <Spinner
+                    android:id="@+id/spinnerCity60079"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60079"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60079"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60080"
+                    android:background="@drawable/city60080"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60080"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60080"
+                    android:layout_toEndOf="@+id/imageCity60080"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:text="@string/num_city60080"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60080"
+                    android:layout_toEndOf="@+id/imageCity60080"
+                    tools:ignore="DuplicateIds" />
+
+                <Spinner
+                    android:id="@+id/spinnerCity60080"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60080"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60080"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60081"
+                    android:background="@drawable/city60081"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60081"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60081"
+                    android:layout_toEndOf="@+id/imageCity60081"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:text="@string/num_city60081"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60081"
+                    android:layout_toEndOf="@+id/imageCity60081"
+                    tools:ignore="DuplicateIds" />
+
+                <Spinner
+                    android:id="@+id/spinnerCity60081"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60081"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60081"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60084"
+                    android:background="@drawable/city60084"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60084"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60084"
+                    android:layout_toEndOf="@+id/imageCity60084"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:text="@string/num_city60084"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60084"
+                    android:layout_toEndOf="@+id/imageCity60084"
+                    tools:ignore="DuplicateIds" />
+
+                <Spinner
+                    android:id="@+id/spinnerCity60084"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60084"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60084"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60085"
+                    android:background="@drawable/city60085"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60085"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60085"
+                    android:layout_toEndOf="@+id/imageCity60085"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:text="@string/num_city60085"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60085"
+                    android:layout_toEndOf="@+id/imageCity60085"
+                    tools:ignore="DuplicateIds" />
+
+                <Spinner
+                    android:id="@+id/spinnerCity60085"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60085"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60085"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60090"
+                    android:background="@drawable/city60090"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60090"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60090"
+                    android:layout_toEndOf="@+id/imageCity60090"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:text="@string/num_city60090"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60090"
+                    android:layout_toEndOf="@+id/imageCity60090"
+                    tools:ignore="DuplicateIds" />
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/spinnerCity60090"-->
+                    <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60090"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60090"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60091"
+                    android:background="@drawable/city60091"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60091"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60091"
+                    android:layout_toEndOf="@+id/imageCity60091"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:text="@string/num_city60091"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60091"
+                    android:layout_toEndOf="@+id/imageCity60091"
+                    tools:ignore="DuplicateIds" />
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnerCity60090"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60091"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60091"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60092"
+                    android:background="@drawable/city60092"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60092"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60092"
+                    android:layout_toEndOf="@+id/imageCity60092"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:text="@string/num_city60092"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60092"
+                    android:layout_toEndOf="@+id/imageCity60092"
+                    tools:ignore="DuplicateIds" />
+
+                    <Spinner
+                    android:id="@+id/spinnerCity60092"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60092"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60092"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60093"
+                    android:background="@drawable/city60093"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60093"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60093"
+                    android:layout_toEndOf="@+id/imageCity60093"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:text="@string/num_city60093"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60093"
+                    android:layout_toEndOf="@+id/imageCity60093"
+                    tools:ignore="DuplicateIds" />
+
+                <Spinner
+                    android:id="@+id/spinnerCity60093"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60093"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60093"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60095"
+                    android:background="@drawable/city60095"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60095"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60095"
+                    android:layout_toEndOf="@+id/imageCity60095"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_city60095"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60095"
+                    android:layout_toEndOf="@+id/imageCity60095"
+                    tools:ignore="DuplicateIds"/>
+
+                <Spinner
+                    android:id="@+id/spinnerCity60095"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60095"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60095"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60097"
+                    android:background="@drawable/city60097"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60097"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60097"
+                    android:layout_toEndOf="@+id/imageCity60097"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_city60097"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60097"
+                    android:layout_toEndOf="@+id/imageCity60097"
+                    tools:ignore="DuplicateIds"/>
+
+                <Spinner
+                    android:id="@+id/spinnerCity60097"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60097"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60097"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60105"
+                    android:background="@drawable/city60105"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60105"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60105"
+                    android:layout_toEndOf="@+id/imageCity60105"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_city60105"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60105"
+                    android:layout_toEndOf="@+id/imageCity60105"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/spinnerCity60105"-->
+                    <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60105"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60105"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60106"
+                    android:background="@drawable/city60106"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60106"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60106"
+                    android:layout_toEndOf="@+id/imageCity60106"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_city60106"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60106"
+                    android:layout_toEndOf="@+id/imageCity60106"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/spinnerCity60106"-->
+                    <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60106"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60106"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60107"
+                    android:background="@drawable/city60107"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60107"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60107"
+                    android:layout_toEndOf="@+id/imageCity60107"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_city60107"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60107"
+                    android:layout_toEndOf="@+id/imageCity60107"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/spinnerCity60107"-->
+                    <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60107"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60107"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60108"
+                    android:background="@drawable/city60108"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60108"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60108"
+                    android:layout_toEndOf="@+id/imageCity60108"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_city60108"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60108"
+                    android:layout_toEndOf="@+id/imageCity60108"
+                    tools:ignore="DuplicateIds"/>
+
+                    <Spinner
+                    android:id="@+id/spinnerCity60108"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60108"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60108"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60109"
+                    android:background="@drawable/city60109"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60109"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60109"
+                    android:layout_toEndOf="@+id/imageCity60109"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_city60109"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60109"
+                    android:layout_toEndOf="@+id/imageCity60109"
+                    tools:ignore="DuplicateIds"/>
+
+                <Spinner
+                    android:id="@+id/spinnerCity60109"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60109"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60109"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60110"
+                    android:background="@drawable/city60110"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60110"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60110"
+                    android:layout_toEndOf="@+id/imageCity60110"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_city60110"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60110"
+                    android:layout_toEndOf="@+id/imageCity60110"
+                    tools:ignore="DuplicateIds"/>
+
+                <Spinner
+                    android:id="@+id/spinnerCity60110"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60110"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60110"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60111"
+                    android:background="@drawable/city60111"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60111"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60111"
+                    android:layout_toEndOf="@+id/imageCity60111"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_city60111"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60111"
+                    android:layout_toEndOf="@+id/imageCity60111"
+                    tools:ignore="DuplicateIds"/>
+
+                <Spinner
+                    android:id="@+id/spinnerCity60111"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60111"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60111"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60113"
+                    android:background="@drawable/city60113"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60113"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60113"
+                    android:layout_toEndOf="@+id/imageCity60113"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_city60113"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60113"
+                    android:layout_toEndOf="@+id/imageCity60113"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/spinnerCity60113"-->
+                    <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60113"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60113"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60114"
+                    android:background="@drawable/city60114"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60114"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60114"
+                    android:layout_toEndOf="@+id/imageCity60114"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_city60114"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60114"
+                    android:layout_toEndOf="@+id/imageCity60114"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnerCity60114"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60114"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60114"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60115"
+                    android:background="@drawable/city60115"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60115"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60115"
+                    android:layout_toEndOf="@+id/imageCity60115"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_city60115"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60115"
+                    android:layout_toEndOf="@+id/imageCity60115"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnerCity60115"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60115"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60115"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60116"
+                    android:background="@drawable/city60116"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60116"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60116"
+                    android:layout_toEndOf="@+id/imageCity60116"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_city60116"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60116"
+                    android:layout_toEndOf="@+id/imageCity60116"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnerCity60116"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60116"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60116"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60117"
+                    android:background="@drawable/city60117"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60117"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60117"
+                    android:layout_toEndOf="@+id/imageCity60117"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_city60117"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60117"
+                    android:layout_toEndOf="@+id/imageCity60117"
+                    tools:ignore="DuplicateIds"/>
+
+                    <Spinner
+                    android:id="@+id/spinnerCity60117"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60117"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60117"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60118"
+                    android:background="@drawable/city60118"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60118"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60118"
+                    android:layout_toEndOf="@+id/imageCity60118"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_city60118"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60118"
+                    android:layout_toEndOf="@+id/imageCity60118"
+                    tools:ignore="DuplicateIds"/>
+
+                <Spinner
+                    android:id="@+id/spinnerCity60118"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60118"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60118"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60119"
+                    android:background="@drawable/city60119"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60119"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60119"
+                    android:layout_toEndOf="@+id/imageCity60119"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_city60119"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60119"
+                    android:layout_toEndOf="@+id/imageCity60119"
+                    tools:ignore="DuplicateIds"/>
+
+                <Spinner
+                    android:id="@+id/spinnerCity60119"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60119"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60119"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60126"
+                    android:background="@drawable/city60126"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60126"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60126"
+                    android:layout_toEndOf="@+id/imageCity60126"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_city60126"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60126"
+                    android:layout_toEndOf="@+id/imageCity60126"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/spinnerCity60126"-->
+                    <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60126"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60126"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60127"
+                    android:background="@drawable/city60127"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60127"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60127"
+                    android:layout_toEndOf="@+id/imageCity60127"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_city60127"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60127"
+                    android:layout_toEndOf="@+id/imageCity60127"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/spinnerCity60127"-->
+                    <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60127"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60127"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60128"
+                    android:background="@drawable/city60128"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60128"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60128"
+                    android:layout_toEndOf="@+id/imageCity60128"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_city60128"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60128"
+                    android:layout_toEndOf="@+id/imageCity60128"
+                    tools:ignore="DuplicateIds"/>
+
+                    <Spinner
+                    android:id="@+id/spinnerCity60128"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60128"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60128"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60129"
+                    android:background="@drawable/city60129"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60129"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60129"
+                    android:layout_toEndOf="@+id/imageCity60129"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_city60129"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60129"
+                    android:layout_toEndOf="@+id/imageCity60129"
+                    tools:ignore="DuplicateIds"/>
+
+                <Spinner
+                    android:id="@+id/spinnerCity60129"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60129"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60129"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageCity60130"
+                    android:background="@drawable/city60130"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_city60130"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageCity60130"
+                    android:layout_toEndOf="@+id/imageCity60130"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_city60130"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageCity60130"
+                    android:layout_toEndOf="@+id/imageCity60130"
+                    tools:ignore="DuplicateIds"/>
+
+                <Spinner
+                    android:id="@+id/spinnerCity60130"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butCity60130"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dCity60130"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <com.appodeal.ads.BannerView
+            android:id="@+id/appodealBannerViewCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+
+</LinearLayout>

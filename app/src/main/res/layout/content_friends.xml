@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.tibro.brickcatalog.Friends"
+    tools:showIn="@layout/activity_friends"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_weight="1" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+        <ImageView
+            android:id="@+id/imageFri41093"
+            android:background="@drawable/fri41093"
+            style="@style/lego_image"
+            android:clickable="false" />
+
+        <TextView
+            android:text="@string/name_fri41093"
+            android:id="@+id/textView"
+            style="@style/set_name"
+            android:layout_toRightOf="@+id/imageFri41093"
+            android:layout_toEndOf="@+id/imageFri41093"/>
+
+        <TextView
+            android:text="@string/num_fri41093"
+            android:id="@+id/textView2"
+            style="@style/set_number"
+            android:layout_toRightOf="@+id/imageFri41093"
+            android:layout_toEndOf="@+id/imageFri41093"/>
+
+        <!--<Spinner-->
+        <!--android:id="@+id/spinnerCre31027"-->
+        <!--style="@style/spinner_book" />-->
+
+        <com.dd.CircularProgressButton
+            style="@style/button"
+            android:id="@+id/butFri41093"
+            app:cpb_textComplete="@string/open"
+            app:cpb_textIdle="@string/download"/>
+
+        <com.dd.CircularProgressButton
+            app:cpb_textIdle="@string/delete"
+            android:id="@+id/dFri41093"
+            style="@style/button_delete"/>
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41094"
+                android:background="@drawable/fri41094"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41094"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41094"
+                android:layout_toEndOf="@+id/imageFri41094"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41094"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41094"
+                android:layout_toEndOf="@+id/imageFri41094"
+                tools:ignore="DuplicateIds"/>
+
+                <Spinner
+                android:id="@+id/spinnerFri41094"
+                style="@style/spinner_book" />
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41094"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41094"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41095"
+                android:background="@drawable/fri41095"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41095"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41095"
+                android:layout_toEndOf="@+id/imageFri41095"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41095"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41095"
+                android:layout_toEndOf="@+id/imageFri41095"
+                tools:ignore="DuplicateIds"/>
+
+            <Spinner
+                android:id="@+id/spinnerFri41095"
+                style="@style/spinner_book" />
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41095"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41095"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41097"
+                android:background="@drawable/fri41097"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41097"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41097"
+                android:layout_toEndOf="@+id/imageFri41097"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41097"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41097"
+                android:layout_toEndOf="@+id/imageFri41097"
+                tools:ignore="DuplicateIds"/>
+
+            <!--<Spinner-->
+                <!--android:id="@+id/spinnerFri41097"-->
+                <!--style="@style/spinner_book" />-->
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41097"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41097"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41099"
+                android:background="@drawable/fri41099"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41099"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41099"
+                android:layout_toEndOf="@+id/imageFri41099"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41099"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41099"
+                android:layout_toEndOf="@+id/imageFri41099"
+                tools:ignore="DuplicateIds"/>
+
+            <!--<Spinner-->
+            <!--android:id="@+id/spinnerFri41097"-->
+            <!--style="@style/spinner_book" />-->
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41099"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41099"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41100"
+                android:background="@drawable/fri41100"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41100"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41100"
+                android:layout_toEndOf="@+id/imageFri41100"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41100"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41100"
+                android:layout_toEndOf="@+id/imageFri41100"
+                tools:ignore="DuplicateIds"/>
+
+            <!--<Spinner-->
+            <!--android:id="@+id/spinnerFri41097"-->
+            <!--style="@style/spinner_book" />-->
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41100"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41100"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41101"
+                android:background="@drawable/fri41101"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41101"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41101"
+                android:layout_toEndOf="@+id/imageFri41101"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41101"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41101"
+                android:layout_toEndOf="@+id/imageFri41101"
+                tools:ignore="DuplicateIds"/>
+
+                <Spinner
+                android:id="@+id/spinnerFri41101"
+                style="@style/spinner_book" />
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41101"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41101"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41103"
+                android:background="@drawable/fri41103"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41103"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41103"
+                android:layout_toEndOf="@+id/imageFri41103"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41103"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41103"
+                android:layout_toEndOf="@+id/imageFri41103"
+                tools:ignore="DuplicateIds"/>
+
+            <!--<Spinner-->
+                <!--android:id="@+id/spinnerFri41101"-->
+                <!--style="@style/spinner_book" />-->
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41103"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41103"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41104"
+                android:background="@drawable/fri41104"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41104"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41104"
+                android:layout_toEndOf="@+id/imageFri41104"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41104"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41104"
+                android:layout_toEndOf="@+id/imageFri41104"
+                tools:ignore="DuplicateIds"/>
+
+            <!--<Spinner-->
+            <!--android:id="@+id/spinnerFri41101"-->
+            <!--style="@style/spinner_book" />-->
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41104"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41104"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41105"
+                android:background="@drawable/fri41105"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41105"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41105"
+                android:layout_toEndOf="@+id/imageFri41105"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41105"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41105"
+                android:layout_toEndOf="@+id/imageFri41105"
+                tools:ignore="DuplicateIds"/>
+
+                <Spinner
+                android:id="@+id/spinnerFri41105"
+                style="@style/spinner_book" />
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41105"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41105"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41106"
+                android:background="@drawable/fri41106"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41106"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41106"
+                android:layout_toEndOf="@+id/imageFri41106"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41106"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41106"
+                android:layout_toEndOf="@+id/imageFri41106"
+                tools:ignore="DuplicateIds"/>
+
+            <Spinner
+                android:id="@+id/spinnerFri41106"
+                style="@style/spinner_book" />
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41106"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41106"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41108"
+                android:background="@drawable/fri41108"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41108"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41108"
+                android:layout_toEndOf="@+id/imageFri41108"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41108"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41108"
+                android:layout_toEndOf="@+id/imageFri41108"
+                tools:ignore="DuplicateIds"/>
+
+                <Spinner
+                    android:id="@+id/spinnerFri41108"
+                    style="@style/spinner_book" />
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41108"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41108"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41109"
+                android:background="@drawable/fri41109"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41109"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41109"
+                android:layout_toEndOf="@+id/imageFri41109"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41109"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41109"
+                android:layout_toEndOf="@+id/imageFri41109"
+                tools:ignore="DuplicateIds"/>
+
+            <!--<Spinner-->
+                <!--android:id="@+id/spinnerFri41109"-->
+                <!--style="@style/spinner_book" />-->
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41109"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41109"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41110"
+                android:background="@drawable/fri41110"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41110"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41110"
+                android:layout_toEndOf="@+id/imageFri41110"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41110"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41110"
+                android:layout_toEndOf="@+id/imageFri41110"
+                tools:ignore="DuplicateIds"/>
+
+            <!--<Spinner-->
+            <!--android:id="@+id/spinnerFri41109"-->
+            <!--style="@style/spinner_book" />-->
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41110"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41110"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41111"
+                android:background="@drawable/fri41111"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41111"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41111"
+                android:layout_toEndOf="@+id/imageFri41111"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41111"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41111"
+                android:layout_toEndOf="@+id/imageFri41111"
+                tools:ignore="DuplicateIds"/>
+
+            <!--<Spinner-->
+            <!--android:id="@+id/spinnerFri41109"-->
+            <!--style="@style/spinner_book" />-->
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41111"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41111"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41112"
+                android:background="@drawable/fri41112"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41112"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41112"
+                android:layout_toEndOf="@+id/imageFri41112"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41112"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41112"
+                android:layout_toEndOf="@+id/imageFri41112"
+                tools:ignore="DuplicateIds"/>
+
+            <!--<Spinner-->
+            <!--android:id="@+id/spinnerFri41109"-->
+            <!--style="@style/spinner_book" />-->
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41112"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41112"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41113"
+                android:background="@drawable/fri41113"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41113"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41113"
+                android:layout_toEndOf="@+id/imageFri41113"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41113"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41113"
+                android:layout_toEndOf="@+id/imageFri41113"
+                tools:ignore="DuplicateIds"/>
+
+            <!--<Spinner-->
+            <!--android:id="@+id/spinnerFri41109"-->
+            <!--style="@style/spinner_book" />-->
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41113"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41113"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41114"
+                android:background="@drawable/fri41114"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41114"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41114"
+                android:layout_toEndOf="@+id/imageFri41114"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41114"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41114"
+                android:layout_toEndOf="@+id/imageFri41114"
+                tools:ignore="DuplicateIds"/>
+
+            <!--<Spinner-->
+            <!--android:id="@+id/spinnerFri41109"-->
+            <!--style="@style/spinner_book" />-->
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41114"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41114"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41115"
+                android:background="@drawable/fri41115"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41115"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41115"
+                android:layout_toEndOf="@+id/imageFri41115"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41115"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41115"
+                android:layout_toEndOf="@+id/imageFri41115"
+                tools:ignore="DuplicateIds"/>
+
+            <!--<Spinner-->
+            <!--android:id="@+id/spinnerFri41109"-->
+            <!--style="@style/spinner_book" />-->
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41115"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41115"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41116"
+                android:background="@drawable/fri41116"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41116"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41116"
+                android:layout_toEndOf="@+id/imageFri41116"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41116"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41116"
+                android:layout_toEndOf="@+id/imageFri41116"
+                tools:ignore="DuplicateIds"/>
+
+            <!--<Spinner-->
+            <!--android:id="@+id/spinnerFri41109"-->
+            <!--style="@style/spinner_book" />-->
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41116"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41116"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41117"
+                android:background="@drawable/fri41117"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41117"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41117"
+                android:layout_toEndOf="@+id/imageFri41117"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41117"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41117"
+                android:layout_toEndOf="@+id/imageFri41117"
+                tools:ignore="DuplicateIds"/>
+
+            <!--<Spinner-->
+            <!--android:id="@+id/spinnerFri41109"-->
+            <!--style="@style/spinner_book" />-->
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41117"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41117"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41118"
+                android:background="@drawable/fri41118"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41118"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41118"
+                android:layout_toEndOf="@+id/imageFri41118"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41118"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41118"
+                android:layout_toEndOf="@+id/imageFri41118"
+                tools:ignore="DuplicateIds"/>
+
+                <Spinner
+                android:id="@+id/spinnerFri41118"
+                style="@style/spinner_book" />
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41118"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41118"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41119"
+                android:background="@drawable/fri41119"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41119"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41119"
+                android:layout_toEndOf="@+id/imageFri41119"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41119"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41119"
+                android:layout_toEndOf="@+id/imageFri41119"
+                tools:ignore="DuplicateIds"/>
+
+            <Spinner
+                android:id="@+id/spinnerFri41119"
+                style="@style/spinner_book" />
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41119"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41119"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41120"
+                android:background="@drawable/fri41120"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41120"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41120"
+                android:layout_toEndOf="@+id/imageFri41120"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41120"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41120"
+                android:layout_toEndOf="@+id/imageFri41120"
+                tools:ignore="DuplicateIds"/>
+
+            <!--<Spinner-->
+                <!--android:id="@+id/spinnerFri41119"-->
+                <!--style="@style/spinner_book" />-->
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41120"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41120"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41121"
+                android:background="@drawable/fri41121"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41121"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41121"
+                android:layout_toEndOf="@+id/imageFri41121"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41121"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41121"
+                android:layout_toEndOf="@+id/imageFri41121"
+                tools:ignore="DuplicateIds"/>
+
+            <!--<Spinner-->
+            <!--android:id="@+id/spinnerFri41119"-->
+            <!--style="@style/spinner_book" />-->
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41121"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41121"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41122"
+                android:background="@drawable/fri41122"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41122"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41122"
+                android:layout_toEndOf="@+id/imageFri41122"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41122"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41122"
+                android:layout_toEndOf="@+id/imageFri41122"
+                tools:ignore="DuplicateIds"/>
+
+            <!--<Spinner-->
+            <!--android:id="@+id/spinnerFri41119"-->
+            <!--style="@style/spinner_book" />-->
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41122"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41122"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+            <ImageView
+                android:id="@+id/imageFri41135"
+                android:background="@drawable/fri41135"
+                style="@style/lego_image"
+                android:clickable="false" />
+
+            <TextView
+                android:text="@string/name_fri41135"
+                android:id="@+id/textView"
+                style="@style/set_name"
+                android:layout_toRightOf="@+id/imageFri41135"
+                android:layout_toEndOf="@+id/imageFri41135"
+                tools:ignore="DuplicateIds"/>
+
+            <TextView
+                android:text="@string/num_fri41135"
+                android:id="@+id/textView2"
+                style="@style/set_number"
+                android:layout_toRightOf="@+id/imageFri41135"
+                android:layout_toEndOf="@+id/imageFri41135"
+                tools:ignore="DuplicateIds"/>
+
+                <Spinner
+                android:id="@+id/spinnerFri41135"
+                style="@style/spinner_book" />
+
+            <com.dd.CircularProgressButton
+                style="@style/button"
+                android:id="@+id/butFri41135"
+                app:cpb_textComplete="@string/open"
+                app:cpb_textIdle="@string/download"/>
+
+            <com.dd.CircularProgressButton
+                app:cpb_textIdle="@string/delete"
+                android:id="@+id/dFri41135"
+                style="@style/button_delete"/>
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <com.appodeal.ads.BannerView
+            android:id="@+id/appodealBannerViewFriends"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

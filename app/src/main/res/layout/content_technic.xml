@@ -1,0 +1,1882 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.tibro.brickcatalog.Technic"
+    tools:showIn="@layout/activity_technic"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_weight="1"  >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageA8065"
+                    android:background="@drawable/a8065"
+                    style="@style/lego_image"
+                    android:clickable="false" />
+
+                <TextView
+                    android:text="@string/name_a8065"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageA8065"
+                    android:layout_toEndOf="@+id/imageA8065"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_a8065"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageA8065"
+                    android:layout_toEndOf="@+id/imageA8065"
+                    tools:ignore="DuplicateIds"/>
+
+                <Spinner
+                    android:id="@+id/spinnerA8065"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    style="@style/button"
+                    android:id="@+id/butA8065"
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dA8065"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imageB8065"
+                    android:background="@drawable/b8065"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_b8065"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageB8065"
+                    android:layout_toEndOf="@+id/imageB8065"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_b8065"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageB8065"
+                    android:layout_toEndOf="@+id/imageB8065"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnerB8065"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/butB8065"/>
+
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dB8065"
+                    style="@style/button_delete" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imagetecA42030"
+                    android:background="@drawable/teca42030"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_tecA42030"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imagetecA42030"
+                    android:layout_toEndOf="@+id/imagetecA42030"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_tecA42030"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imagetecA42030"
+                    android:layout_toEndOf="@+id/imagetecA42030"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/spinnertecA42030"-->
+                    <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/btecA42030"
+                    />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dtecA42030"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imagetecB42030"
+                    android:background="@drawable/tecb42030"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_tecB42030"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imagetecB42030"
+                    android:layout_toEndOf="@+id/imagetecB42030"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_tecB42030"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imagetecB42030"
+                    android:layout_toEndOf="@+id/imagetecB42030"
+                    tools:ignore="DuplicateIds"/>
+
+                <Spinner
+                    android:id="@+id/spinnertecB42030"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/btecB42030"
+                    />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dtecB42030"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imagetecA42031"
+                    android:background="@drawable/teca42031"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_tecA42031"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imagetecA42031"
+                    android:layout_toEndOf="@+id/imagetecA42031"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_tecA42031"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imagetecA42031"
+                    android:layout_toEndOf="@+id/imagetecA42031"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnertecA42030"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/btecA42031"
+                    />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dtecA42031"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imagetecB42031"
+                    android:background="@drawable/tecb42031"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_tecB42031"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imagetecB42031"
+                    android:layout_toEndOf="@+id/imagetecB42031"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_tecB42031"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imagetecB42031"
+                    android:layout_toEndOf="@+id/imagetecB42031"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/spinnertecB42031"-->
+                    <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/btecB42031"
+                    />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dtecB42031"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imageA42032"
+                    android:background="@drawable/a42032"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_a42032"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageA42032"
+                    android:layout_toEndOf="@+id/imageA42032"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_a42032"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageA42032"
+                    android:layout_toEndOf="@+id/imageA42032"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnerB8065"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/butA42032" />
+
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dA42032"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imageB42032"
+                    android:background="@drawable/b42032"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_b42032"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageB42032"
+                    android:layout_toEndOf="@+id/imageB42032"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_b42032"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageB42032"
+                    android:layout_toEndOf="@+id/imageB42032"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnerB8065"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/butB42032"
+                    />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dB42032"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/image42033"
+                    android:background="@drawable/tec42033"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_42033"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/image42033"
+                    android:layout_toEndOf="@+id/image42033"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_42033"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/image42033"
+                    android:layout_toEndOf="@+id/image42033"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnerB8065"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/but42033" />
+
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/d42033"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/image42034"
+                    android:background="@drawable/tec42034"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_42034"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/image42034"
+                    android:layout_toEndOf="@+id/image42034"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_42034"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/image42034"
+                    android:layout_toEndOf="@+id/image42034"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnerB8065"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/but42034" />
+
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/d42034"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/image42033plus42034"
+                    android:background="@drawable/tec42033plus42034"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_42033plus42034"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/image42033plus42034"
+                    android:layout_toEndOf="@+id/image42033plus42034"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_42033plus42034"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/image42033plus42034"
+                    android:layout_toEndOf="@+id/image42033plus42034"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnerB8065"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/but42033plus42034" />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/d42033plus42034"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imagetecA42035"
+                    android:background="@drawable/teca42035"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_tecA42035"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imagetecA42035"
+                    android:layout_toEndOf="@+id/imagetecA42035"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_tecA42035"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imagetecA42035"
+                    android:layout_toEndOf="@+id/imagetecA42035"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnertecA42030"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/btecA42035"
+                    />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dtecA42035"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imagetecB42035"
+                    android:background="@drawable/tecb42035"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_tecB42035"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imagetecB42035"
+                    android:layout_toEndOf="@+id/imagetecB42035"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_tecB42035"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imagetecB42035"
+                    android:layout_toEndOf="@+id/imagetecB42035"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnertecB42031"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/btecB42035"
+                    />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dtecB42035"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imagetecA42036"
+                    android:background="@drawable/teca42036"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_tecA42036"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imagetecA42036"
+                    android:layout_toEndOf="@+id/imagetecA42036"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_tecA42036"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imagetecA42036"
+                    android:layout_toEndOf="@+id/imagetecA42036"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnertecA42030"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/btecA42036"
+                    />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dtecA42036"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imagetecB42036"
+                    android:background="@drawable/tecb42036"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_tecB42036"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imagetecB42036"
+                    android:layout_toEndOf="@+id/imagetecB42036"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_tecB42036"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imagetecB42036"
+                    android:layout_toEndOf="@+id/imagetecB42036"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnertecB42031"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/btecB42036"
+                    />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dtecB42036"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imagetecA42037"
+                    android:background="@drawable/teca42037"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_tecA42037"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imagetecA42037"
+                    android:layout_toEndOf="@+id/imagetecA42037"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_tecA42037"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imagetecA42037"
+                    android:layout_toEndOf="@+id/imagetecA42037"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnertecA42030"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/btecA42037"
+                    />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dtecA42037"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imagetecB42037"
+                    android:background="@drawable/tecb42037"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_tecB42037"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imagetecB42037"
+                    android:layout_toEndOf="@+id/imagetecB42037"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_tecB42037"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imagetecB42037"
+                    android:layout_toEndOf="@+id/imagetecB42037"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnertecB42031"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/btecB42037"
+                    />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dtecB42037"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imagetecA42038"
+                    android:background="@drawable/teca42038"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_tecA42038"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imagetecA42038"
+                    android:layout_toEndOf="@+id/imagetecA42038"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_tecA42038"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imagetecA42038"
+                    android:layout_toEndOf="@+id/imagetecA42038"
+                    tools:ignore="DuplicateIds"/>
+
+                    <Spinner
+                    android:id="@+id/spinnertecA42038"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/btecA42038"
+                    />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dtecA42038"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imagetecB42038"
+                    android:background="@drawable/tecb42038"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_tecB42038"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imagetecB42038"
+                    android:layout_toEndOf="@+id/imagetecB42038"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_tecB42038"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imagetecB42038"
+                    android:layout_toEndOf="@+id/imagetecB42038"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnertecB42031"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/btecB42038"
+                    />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dtecB42038"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imagetecA42039"
+                    android:background="@drawable/teca42039"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_tecA42039"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imagetecA42039"
+                    android:layout_toEndOf="@+id/imagetecA42039"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_tecA42039"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imagetecA42039"
+                    android:layout_toEndOf="@+id/imagetecA42039"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/spinnertecA42039"-->
+                    <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/btecA42039"
+                    />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dtecA42039"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imagetecB42039"
+                    android:background="@drawable/tecb42039"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_tecB42039"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imagetecB42039"
+                    android:layout_toEndOf="@+id/imagetecB42039"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_tecB42039"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imagetecB42039"
+                    android:layout_toEndOf="@+id/imagetecB42039"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnertecB42031"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/btecB42039"
+                    />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dtecB42039"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imagetecA42040"
+                    android:background="@drawable/teca42040"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_tecA42040"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imagetecA42040"
+                    android:layout_toEndOf="@+id/imagetecA42040"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_tecA42040"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imagetecA42040"
+                    android:layout_toEndOf="@+id/imagetecA42040"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnertecA42039"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/btecA42040"
+                    />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dtecA42040"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imagetecB42040"
+                    android:background="@drawable/tecb42040"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_tecB42040"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imagetecB42040"
+                    android:layout_toEndOf="@+id/imagetecB42040"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_tecB42040"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imagetecB42040"
+                    android:layout_toEndOf="@+id/imagetecB42040"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnertecB42031"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/btecB42040"
+                    />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dtecB42040"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imagetecA42042"
+                    android:background="@drawable/teca42042"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_tecA42042"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imagetecA42042"
+                    android:layout_toEndOf="@+id/imagetecA42042"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_tecA42042"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imagetecA42042"
+                    android:layout_toEndOf="@+id/imagetecA42042"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnertecA42039"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/btecA42042"
+                    />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dtecA42042"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imagetecB42042"
+                    android:background="@drawable/tecb42042"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_tecB42042"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imagetecB42042"
+                    android:layout_toEndOf="@+id/imagetecB42042"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_tecB42042"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imagetecB42042"
+                    android:layout_toEndOf="@+id/imagetecB42042"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnertecB42031"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/btecB42042"
+                    />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dtecB42042"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imagetecA42043"
+                    android:background="@drawable/teca42043"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_tecA42043"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imagetecA42043"
+                    android:layout_toEndOf="@+id/imagetecA42043"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_tecA42043"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imagetecA42043"
+                    android:layout_toEndOf="@+id/imagetecA42043"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnertecA42039"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/btecA42043"
+                    />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dtecA42043"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imageA42044"
+                    android:background="@drawable/a42044"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_a42044"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageA42044"
+                    android:layout_toEndOf="@+id/imageA42044"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_a42044"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageA42044"
+                    android:layout_toEndOf="@+id/imageA42044"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnerB8065"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/butA42044" />
+
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dA42044"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imageB42044"
+                    android:background="@drawable/b42044"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_b42044"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageB42044"
+                    android:layout_toEndOf="@+id/imageB42044"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_b42044"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageB42044"
+                    android:layout_toEndOf="@+id/imageB42044"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnerB8065"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/butB42044" />
+
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dB42044"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imageA42045"
+                    android:background="@drawable/a42045"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_a42045"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageA42045"
+                    android:layout_toEndOf="@+id/imageA42045"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_a42045"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageA42045"
+                    android:layout_toEndOf="@+id/imageA42045"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnerB8065"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/butA42045" />
+
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dA42045"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imageB42045"
+                    android:background="@drawable/b42045"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_b42045"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageB42045"
+                    android:layout_toEndOf="@+id/imageB42045"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_b42045"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageB42045"
+                    android:layout_toEndOf="@+id/imageB42045"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnerB8065"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/butB42045" />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dB42045"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imageA42046"
+                    android:background="@drawable/a42046"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_a42046"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageA42046"
+                    android:layout_toEndOf="@+id/imageA42046"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_a42046"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageA42046"
+                    android:layout_toEndOf="@+id/imageA42046"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnerB8065"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/butA42046" />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dA42046"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imageA42047"
+                    android:background="@drawable/a42047"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_a42047"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageA42047"
+                    android:layout_toEndOf="@+id/imageA42047"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_a42047"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageA42047"
+                    android:layout_toEndOf="@+id/imageA42047"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnerB8065"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/butA42047" />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dA42047"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imageA42046plus42047"
+                    android:background="@drawable/a42046plus42047"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_a42046plus42047"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageA42046plus42047"
+                    android:layout_toEndOf="@+id/imageA42046plus42047"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_a42046plus42047"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageA42046plus42047"
+                    android:layout_toEndOf="@+id/imageA42046plus42047"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnerB8065"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/butA42046plus42047" />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dA42046plus42047"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imageA42048"
+                    android:background="@drawable/a42048"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_a42048"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageA42048"
+                    android:layout_toEndOf="@+id/imageA42048"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_a42048"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageA42048"
+                    android:layout_toEndOf="@+id/imageA42048"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnerB8065"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/butA42048" />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dA42048"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imageB42048"
+                    android:background="@drawable/b42048"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_b42048"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageB42048"
+                    android:layout_toEndOf="@+id/imageB42048"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_b42048"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageB42048"
+                    android:layout_toEndOf="@+id/imageB42048"
+                    tools:ignore="DuplicateIds"/>
+
+                <!--<Spinner-->
+                <!--android:id="@+id/spinnerB8065"-->
+                <!--style="@style/spinner_book" />-->
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/butB42048" />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dB42048"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imageA42049"
+                    android:background="@drawable/a42049"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_a42049"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageA42049"
+                    android:layout_toEndOf="@+id/imageA42049"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_a42049"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageA42049"
+                    android:layout_toEndOf="@+id/imageA42049"
+                    tools:ignore="DuplicateIds"/>
+
+                <Spinner
+                    android:id="@+id/spinnerA42049"
+                    style="@style/spinner_book" />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/butA42049" />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dA42049"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imageB42049"
+                    android:background="@drawable/b42049"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_b42049"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageB42049"
+                    android:layout_toEndOf="@+id/imageB42049"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_b42049"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageB42049"
+                    android:layout_toEndOf="@+id/imageB42049"
+                    tools:ignore="DuplicateIds"/>
+
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/butB42049" />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dB42049"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imageA42050"
+                    android:background="@drawable/a42050"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_a42050"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageA42050"
+                    android:layout_toEndOf="@+id/imageA42050"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_a42050"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageA42050"
+                    android:layout_toEndOf="@+id/imageA42050"
+                    tools:ignore="DuplicateIds"/>
+
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/butA42050" />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dA42050"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imageB42050"
+                    android:background="@drawable/b42050"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_b42050"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageB42050"
+                    android:layout_toEndOf="@+id/imageB42050"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_b42050"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageB42050"
+                    android:layout_toEndOf="@+id/imageB42050"
+                    tools:ignore="DuplicateIds"/>
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/butB42050" />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dB42050"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imageA42052"
+                    android:background="@drawable/a42052"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_a42052"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageA42052"
+                    android:layout_toEndOf="@+id/imageA42052"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_a42052"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageA42052"
+                    android:layout_toEndOf="@+id/imageA42052"
+                    tools:ignore="DuplicateIds"/>
+
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/butA42052" />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dA42052"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/imageB42052"
+                    android:background="@drawable/b42052"
+                    style="@style/lego_image" />
+
+                <TextView
+                    android:text="@string/name_b42052"
+                    android:id="@+id/textView"
+                    style="@style/set_name"
+                    android:layout_toRightOf="@+id/imageB42052"
+                    android:layout_toEndOf="@+id/imageB42052"
+                    tools:ignore="DuplicateIds"/>
+
+                <TextView
+                    android:text="@string/num_b42052"
+                    android:id="@+id/textView2"
+                    style="@style/set_number"
+                    android:layout_toRightOf="@+id/imageB42052"
+                    android:layout_toEndOf="@+id/imageB42052"
+                    tools:ignore="DuplicateIds"/>
+
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textComplete="@string/open"
+                    app:cpb_textIdle="@string/download"
+                    style="@style/button"
+                    android:id="@+id/butB42052" />
+
+                <com.dd.CircularProgressButton
+                    app:cpb_textIdle="@string/delete"
+                    android:id="@+id/dB42052"
+                    style="@style/button_delete"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <com.appodeal.ads.BannerView
+            android:id="@+id/appodealBannerViewTechnic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+
+</LinearLayout>
