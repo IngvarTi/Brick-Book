@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BrickCatalog.iml" filepath="$PROJECT_DIR$/BrickCatalog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/D-NewWork-Oktyabr2016-BrickCatalog-.iml" filepath="$PROJECT_DIR$/D-NewWork-Oktyabr2016-BrickCatalog-.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/cheetah-mobile-3.4.7/cheetah-mobile-3.4.7.iml" filepath="$PROJECT_DIR$/cheetah-mobile-3.4.7/cheetah-mobile-3.4.7.iml" />
       <module fileurl="file://$PROJECT_DIR$/unity-ads-2.0.4/unity-ads-2.0.4.iml" filepath="$PROJECT_DIR$/unity-ads-2.0.4/unity-ads-2.0.4.iml" />
