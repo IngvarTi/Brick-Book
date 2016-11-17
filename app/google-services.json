@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "714666055583",
+    "project_id": "brick-book"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714666055583:android:c4d5d89452da72f9",
+        "android_client_info": {
+          "package_name": "com.tibro.brickcatalog"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCHpw75lz24pRSAikF_3Y7JdjaEQQh8Z0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-87512448-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

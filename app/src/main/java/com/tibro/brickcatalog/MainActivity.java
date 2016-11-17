@@ -1,5 +1,7 @@
 package com.tibro.brickcatalog;
 
+import java.util.Locale;
+
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -9,6 +11,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -16,8 +19,14 @@ import android.widget.Button;
 
 import com.appodeal.ads.Appodeal;
 
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
+
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
+    private static final String TAG = "MainActivity";
+    private Tracker mTracker;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +54,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Appodeal.show(this, Appodeal.BANNER_VIEW);
 
+        // [START shared_tracker]
+        // Obtain the shared Tracker instance.
+        AnalyticsApplication application = (AnalyticsApplication) getApplication();
+        mTracker = application.getDefaultTracker();
+        // [END shared_tracker]
+
+        // [START screen_view_hit]
+        Log.i(TAG, "Setting screen name: ");
+        mTracker.setScreenName("Image");
+        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+        // [END screen_view_hit]
 
 
         final Button butTechnic = (Button)findViewById(R.id.butTechnic);
@@ -62,29 +82,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-    public RecyclerView.OnScrollListener onScrollListener = new RecyclerView.OnScrollListener() {
-        boolean hideToolBar = false;
-        @Override
-        public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
-            super.onScrollStateChanged(recyclerView, newState);
-            if (hideToolBar) {
-                getSupportActionBar().hide();
-            } else {
-                getSupportActionBar().show();
-            }
-        }
 
-        @Override
-        public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
-            super.onScrolled(recyclerView, dx, dy);
-            if (dy > 20) {
-                hideToolBar = true;
-
-            } else if (dy < -5) {
-                hideToolBar = false;
-            }
-        }
-    };
 
 
 
@@ -139,6 +137,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.butArchitecture:
                 Intent ArchitectureIntent = new Intent (MainActivity.this, Architecture.class);
                 startActivity(ArchitectureIntent);
+                // [START custom_event]
+                mTracker.send(new HitBuilders.EventBuilder()
+                        .setCategory("Action")
+                        .setAction("Go Architecture")
+                        .build());
+                // [END custom_event]
                 break;
             case R.id.butCreator:
                 Intent CreatorIntent = new Intent (MainActivity.this, Creator.class);
