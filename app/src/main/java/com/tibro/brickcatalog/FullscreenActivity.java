@@ -115,7 +115,7 @@ public class FullscreenActivity extends AppCompatActivity {
         Appodeal.setBannerViewId(R.id.appodealBannerView);
         String appKey = "fa7b74c8278d1e0f3ec32d243a7e151466b88968bfc3fe2f";
         Appodeal.initialize(this, appKey, Appodeal.BANNER);
-        Appodeal.setTesting(true);
+//        Appodeal.setTesting(true);
 
 
 

@@ -78,7 +78,7 @@ public class StarWars extends AppCompatActivity implements View.OnClickListener 
         Appodeal.setBannerViewId(R.id.appodealBannerViewStarWars);
         String appKey = "fa7b74c8278d1e0f3ec32d243a7e151466b88968bfc3fe2f";
         Appodeal.initialize(this, appKey, Appodeal.BANNER);
-        Appodeal.setTesting(true);
+//        Appodeal.setTesting(true);
 
 
 
