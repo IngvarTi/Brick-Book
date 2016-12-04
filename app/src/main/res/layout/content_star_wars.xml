@@ -1362,20 +1362,4 @@
     </ScrollView>
 
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal">
-
-        <com.appodeal.ads.BannerView
-            android:id="@+id/appodealBannerViewStarWars"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:visibility="gone"
-            android:layout_weight="1"
-            android:layout_gravity="center_horizontal" />
-    </LinearLayout>
-
-
 </LinearLayout>

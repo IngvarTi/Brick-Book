@@ -26,7 +26,7 @@ import com.google.android.gms.analytics.Tracker;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
 //    private static final String TAG = "MainActivity";
-//    private Tracker mTracker;
+    private Tracker mTracker;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,24 +47,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //            }
 //        });
 
-        Appodeal.setBannerViewId(R.id.appodealBannerViewMain);
         String appKey = "fa7b74c8278d1e0f3ec32d243a7e151466b88968bfc3fe2f";
         Appodeal.initialize(this, appKey, Appodeal.BANNER);
 //        Appodeal.setTesting(true);
 
-        Appodeal.show(this, Appodeal.BANNER_VIEW);
+        Appodeal.show(this, Appodeal.BANNER_BOTTOM);
 
-//        // [START shared_tracker]
-//        // Obtain the shared Tracker instance.
-//        AnalyticsApplication application = (AnalyticsApplication) getApplication();
-//        mTracker = application.getDefaultTracker();
-//        // [END shared_tracker]
-//
-//        // [START screen_view_hit]
+        // [START shared_tracker]
+        // Obtain the shared Tracker instance.
+        AnalyticsApplication application = (AnalyticsApplication) getApplication();
+        mTracker = application.getDefaultTracker();
+        // [END shared_tracker]
+
+        // [START screen_view_hit]
 //        Log.i(TAG, "Setting screen name: ");
-//        mTracker.setScreenName("Image");
-//        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
-//        // [END screen_view_hit]
+        mTracker.setScreenName("BrickHomePage");
+        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+        // [END screen_view_hit]
 
 
         final Button butTechnic = (Button)findViewById(R.id.butTechnic);
@@ -98,6 +97,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onResume();
         Appodeal.onResume(this, Appodeal.BANNER);
     }
+
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -138,10 +139,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent ArchitectureIntent = new Intent (MainActivity.this, Architecture.class);
                 startActivity(ArchitectureIntent);
                 // [START custom_event]
-//                mTracker.send(new HitBuilders.EventBuilder()
-//                        .setCategory("Action")
-//                        .setAction("Go Architecture")
-//                        .build());
+                mTracker.send(new HitBuilders.EventBuilder()
+                        .setCategory("Action")
+                        .setAction("Go Architecture")
+                        .build());
                 // [END custom_event]
                 break;
             case R.id.butCreator:

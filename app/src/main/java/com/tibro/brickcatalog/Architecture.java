@@ -14,8 +14,13 @@ import android.widget.ImageView;
 
 import com.appodeal.ads.Appodeal;
 import com.dd.CircularProgressButton;
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
 
 public class Architecture extends AppCompatActivity implements View.OnClickListener {
+
+    private static final String TAG = "MainActivity";
+    private Tracker mTracker;
 
     String strArc21022 = new String();
     String strArc21023 = new String();
@@ -45,14 +50,26 @@ public class Architecture extends AppCompatActivity implements View.OnClickListe
 //        });
 
 
-        Appodeal.setBannerViewId(R.id.appodealBannerView);
+//        Appodeal.setBannerViewId(R.id.appodealBannerView);
         String appKey = "fa7b74c8278d1e0f3ec32d243a7e151466b88968bfc3fe2f";
         Appodeal.initialize(this, appKey, Appodeal.BANNER);
 //        Appodeal.setTesting(true);
 
 
 
-        Appodeal.show(this, Appodeal.BANNER_VIEW);
+        Appodeal.show(this, Appodeal.BANNER_BOTTOM);
+
+        // [START shared_tracker]
+        // Obtain the shared Tracker instance.
+        AnalyticsApplication application = (AnalyticsApplication) getApplication();
+        mTracker = application.getDefaultTracker();
+        // [END shared_tracker]
+
+        // [START screen_view_hit]
+//        Log.i(TAG, "Setting screen name: ");
+        mTracker.setScreenName("Architecture");
+        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+        // [END screen_view_hit]
 
         final ImageView imageArc21022 = (ImageView) findViewById(R.id.imageArc21022);
         imageArc21022.setOnClickListener(this);

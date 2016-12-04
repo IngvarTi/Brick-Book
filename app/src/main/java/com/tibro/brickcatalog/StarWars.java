@@ -17,8 +17,12 @@ import android.widget.Spinner;
 
 import com.appodeal.ads.Appodeal;
 import com.dd.CircularProgressButton;
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
 
 public class StarWars extends AppCompatActivity implements View.OnClickListener  {
+
+    private Tracker mTracker;
 
     String[] two = {"1/2", "2/2"};
     String[] three = {"1/3", "2/3", "3/3"};
@@ -75,14 +79,25 @@ public class StarWars extends AppCompatActivity implements View.OnClickListener 
 //            }
 //        });
 
-        Appodeal.setBannerViewId(R.id.appodealBannerViewStarWars);
         String appKey = "fa7b74c8278d1e0f3ec32d243a7e151466b88968bfc3fe2f";
         Appodeal.initialize(this, appKey, Appodeal.BANNER);
 //        Appodeal.setTesting(true);
 
 
 
-        Appodeal.show(this, Appodeal.BANNER_VIEW);
+        Appodeal.show(this, Appodeal.BANNER_BOTTOM);
+
+        // [START shared_tracker]
+        // Obtain the shared Tracker instance.
+        AnalyticsApplication application = (AnalyticsApplication) getApplication();
+        mTracker = application.getDefaultTracker();
+        // [END shared_tracker]
+
+        // [START screen_view_hit]
+//        Log.i(TAG, "Setting screen name: ");
+        mTracker.setScreenName("Star Wars");
+        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+        // [END screen_view_hit]
 
         final ImageView imageStar75074 = (ImageView) findViewById(R.id.imageStar75074);
         imageStar75074.setOnClickListener(this);

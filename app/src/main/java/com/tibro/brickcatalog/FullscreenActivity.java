@@ -12,6 +12,8 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.appodeal.ads.Appodeal;
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -88,6 +90,8 @@ public class FullscreenActivity extends AppCompatActivity {
 //        }
 //    };
 
+    private Tracker mTracker;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -112,7 +116,6 @@ public class FullscreenActivity extends AppCompatActivity {
         // while interacting with the UI.
 //        findViewById(R.id.dummy_button).setOnTouchListener(mDelayHideTouchListener);
 
-        Appodeal.setBannerViewId(R.id.appodealBannerView);
         String appKey = "fa7b74c8278d1e0f3ec32d243a7e151466b88968bfc3fe2f";
         Appodeal.initialize(this, appKey, Appodeal.BANNER);
 //        Appodeal.setTesting(true);
@@ -120,6 +123,16 @@ public class FullscreenActivity extends AppCompatActivity {
 
 
         Appodeal.show(this, Appodeal.BANNER_BOTTOM);
+
+        AnalyticsApplication application = (AnalyticsApplication) getApplication();
+        mTracker = application.getDefaultTracker();
+
+        // [START screen_view_hit]
+//        Log.i(TAG, "Setting screen name: ");
+        mTracker.setScreenName("Full Image");
+        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+        // [END screen_view_hit]
+
 
 
 

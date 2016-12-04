@@ -17,8 +17,12 @@ import android.widget.Spinner;
 
 import com.appodeal.ads.Appodeal;
 import com.dd.CircularProgressButton;
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
 
 public class City extends AppCompatActivity implements View.OnClickListener {
+
+    private Tracker mTracker;
 
     String[] two = {"1/2", "2/2"};
     String[] three = {"1/3", "2/3", "3/3"};
@@ -89,14 +93,23 @@ public class City extends AppCompatActivity implements View.OnClickListener {
 //            }
 //        });
 
-        Appodeal.setBannerViewId(R.id.appodealBannerViewCity);
         String appKey = "fa7b74c8278d1e0f3ec32d243a7e151466b88968bfc3fe2f";
         Appodeal.initialize(this, appKey, Appodeal.BANNER);
 //        Appodeal.setTesting(true);
 
+        Appodeal.show(this, Appodeal.BANNER_BOTTOM);
 
+        // [START shared_tracker]
+        // Obtain the shared Tracker instance.
+        AnalyticsApplication application = (AnalyticsApplication) getApplication();
+        mTracker = application.getDefaultTracker();
+        // [END shared_tracker]
 
-        Appodeal.show(this, Appodeal.BANNER_VIEW);
+        // [START screen_view_hit]
+//        Log.i(TAG, "Setting screen name: ");
+        mTracker.setScreenName("City");
+        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+        // [END screen_view_hit]
 
         final ImageView imageCity60044 = (ImageView) findViewById(R.id.imageCity60044);
         imageCity60044.setOnClickListener(this);
