@@ -7,7 +7,6 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.tibro.brickcatalog.StarWars"
     tools:showIn="@layout/activity_star_wars"
@@ -28,7 +27,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#ffffff"
-        android:layout_marginBottom="@dimen/activity_vertical_margin" >
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginTop="4dp"
+        android:elevation="@dimen/instructionsElevation">
 
         <ImageView
             android:id="@+id/imageStar75074"
@@ -73,7 +74,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75075"
@@ -118,7 +120,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75078"
@@ -163,7 +166,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75079"
@@ -208,7 +212,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75082"
@@ -253,7 +258,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75088"
@@ -294,7 +300,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75089"
@@ -335,7 +342,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75091"
@@ -376,7 +384,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75092"
@@ -417,7 +426,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75093"
@@ -458,7 +468,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75094"
@@ -499,7 +510,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75099"
@@ -540,7 +552,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75100"
@@ -581,7 +594,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75101"
@@ -622,7 +636,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75102"
@@ -663,7 +678,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75103"
@@ -704,7 +720,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75104"
@@ -745,7 +762,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75105"
@@ -786,7 +804,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75125"
@@ -827,7 +846,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75126"
@@ -868,7 +888,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75127"
@@ -909,7 +930,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75128"
@@ -950,7 +972,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75129"
@@ -991,7 +1014,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75130"
@@ -1032,7 +1056,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75131"
@@ -1073,7 +1098,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75132"
@@ -1114,7 +1140,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75133"
@@ -1155,7 +1182,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75134"
@@ -1196,7 +1224,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75135"
@@ -1237,7 +1266,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75136"
@@ -1319,7 +1349,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            android:layout_marginBottom="@dimen/activity_vertical_margin" >
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:elevation="@dimen/instructionsElevation">
 
             <ImageView
                 android:id="@+id/imageStar75138"

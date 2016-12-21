@@ -7,7 +7,6 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.tibro.brickcatalog.City"
     tools:showIn="@layout/activity_city"
@@ -30,7 +29,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation"
+                android:layout_marginTop="4dp">
 
                 <ImageView
                     android:id="@+id/imageCity60044"
@@ -75,7 +76,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60047"
@@ -120,7 +122,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60050"
@@ -165,7 +168,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60051"
@@ -210,7 +214,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60052"
@@ -255,7 +260,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60067"
@@ -300,7 +306,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60069"
@@ -345,7 +352,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60072"
@@ -390,7 +398,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60073"
@@ -435,7 +444,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60074"
@@ -480,7 +490,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60076"
@@ -525,7 +536,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60077"
@@ -570,7 +582,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60078"
@@ -615,7 +628,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60079"
@@ -660,7 +674,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60080"
@@ -705,7 +720,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60081"
@@ -750,7 +766,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60084"
@@ -795,7 +812,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60085"
@@ -840,7 +858,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60090"
@@ -885,7 +904,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60091"
@@ -930,7 +950,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60092"
@@ -975,7 +996,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60093"
@@ -1020,7 +1042,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60095"
@@ -1065,7 +1088,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60097"
@@ -1110,7 +1134,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60105"
@@ -1155,7 +1180,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60106"
@@ -1200,7 +1226,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60107"
@@ -1245,7 +1272,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60108"
@@ -1290,7 +1318,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60109"
@@ -1335,7 +1364,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60110"
@@ -1380,7 +1410,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60111"
@@ -1425,7 +1456,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60113"
@@ -1470,7 +1502,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60114"
@@ -1515,7 +1548,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60115"
@@ -1560,7 +1594,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60116"
@@ -1605,7 +1640,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60117"
@@ -1650,7 +1686,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60118"
@@ -1695,7 +1732,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60119"
@@ -1740,7 +1778,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60126"
@@ -1785,7 +1824,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60127"
@@ -1830,7 +1870,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60128"
@@ -1875,7 +1916,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60129"
@@ -1920,7 +1962,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageCity60130"

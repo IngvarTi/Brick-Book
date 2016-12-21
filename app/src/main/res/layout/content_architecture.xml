@@ -7,7 +7,6 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.tibro.brickcatalog.Architecture"
     tools:showIn="@layout/activity_architecture"
@@ -29,7 +28,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin" >
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginTop="4dp"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageArc21022"
@@ -75,7 +76,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin">
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageArc21023"
@@ -112,7 +114,7 @@
                 <com.dd.CircularProgressButton
                     app:cpb_textIdle="@string/delete"
                     android:id="@+id/dArc21023"
-                    style="@style/button_delete" />
+                    style="@style/button_delete"/>
 
             </RelativeLayout>
 
@@ -121,7 +123,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin">
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageArc21024"
@@ -167,7 +170,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin">
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageArc21026"
@@ -213,7 +217,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin">
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageArc21027"
@@ -259,7 +264,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin">
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageArc21028"
@@ -305,7 +311,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:layout_marginBottom="@dimen/activity_vertical_margin">
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:elevation="@dimen/instructionsElevation">
 
                 <ImageView
                     android:id="@+id/imageArc21031"
