@@ -5,14 +5,15 @@
     <string name="open">Открыть</string>
     <string name="download">Загрузить</string>
 
-    <string name="noInternet">No internet connection</string>
+    <string name="noInternet">Нет соединения с  интернетом</string>
 
-    <string name="pdf_show_local_progress_title">Downloading pdf file from the server</string>
-    <string name="pdf_show_online_dialog_title">Open instruction in GoogleDrive ?</string>
-    <string name="pdf_show_online_dialog_question">On your device not installed the program supports the format of pdf, Lego instruction will be opened with the help of cloud service GoogleDrive.</string>
-    <string name="pdf_show_local_progress_content">Downloading...</string>
-    <string name="pdf_show_online_dialog_button_no">No</string>
-    <string name="pdf_show_online_dialog_button_yes">Yes</string>
+    <string name="pdf_show_local_progress_title">Загрузка инструкции</string>
+    <string name="pdf_show_online_dialog_title">Открыть инструкцию в GoogleDrive ?</string>
+    <string name="pdf_show_online_dialog_question">На вашем устройстве не установлено программ
+        поддерживающих формат PDF, инструкция Lego будет открыта с помощью облачного сервиса GoogleDrive.</string>
+    <string name="pdf_show_local_progress_content">Загрузка...</string>
+    <string name="pdf_show_online_dialog_button_no">Отмена</string>
+    <string name="pdf_show_online_dialog_button_yes">Ок</string>
 
     <string name="num_a8065">8065    A</string>
     <string name="num_b8065">8065    B</string>
@@ -47,9 +48,9 @@
     <string name="title_activity_technic">Technic</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="fileDeleted">File Delited</string>
-    <string name="fileDownloaded">File Downloaded</string>
-    <string name="startDownloaded">Started Downloading</string>
+    <string name="fileDeleted">Инструкция удалена</string>
+    <string name="fileDownloaded">Инструкция загружена</string>
+    <string name="startDownloaded">Загрузка инструкции</string>
     <string name="num_b42049">42049   B</string>
     <string name="name_b42049">Mine Cutting Machine</string>
     <string name="num_a42050">42050   A</string>
@@ -375,7 +376,7 @@
     <string name="num_fri41135">41135</string>
     <string name="rate_us">Сказать Спасибо</string>
     <string name="rateuri">market://details?id=com.tibro.brickcatalog</string>
-
+    <string name="dont_ask_again">Больше не спрашивать</string>
 
 
 </resources>

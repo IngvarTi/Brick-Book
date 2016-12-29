@@ -3,12 +3,12 @@ package com.tibro.brickcatalog;
 import android.annotation.TargetApi;
 import android.app.AlertDialog;
 import android.app.DownloadManager;
-import android.app.ProgressDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.net.ConnectivityManager;
@@ -16,17 +16,17 @@ import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Environment;
-import android.view.Gravity;
+import android.support.annotation.NonNull;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.afollestad.materialdialogs.DialogAction;
+import com.afollestad.materialdialogs.MaterialDialog;
 import com.dd.CircularProgressButton;
 
 import java.io.File;
 
+import static android.content.Context.MODE_PRIVATE;
 
 
 /**
@@ -39,6 +39,7 @@ public class PDFTools {
     private static final int a = 0;
     private static final int b = 1;
 
+    static SharedPreferences sPref;
 
 
     /**
@@ -155,17 +156,51 @@ public class PDFTools {
      * @param pdfUrl
      */
     public static void askToOpenPDFThroughGoogleDrive( final Context context, final String pdfUrl ) {
-        new AlertDialog.Builder( context )
-                .setTitle( R.string.pdf_show_online_dialog_title )
-                .setMessage( R.string.pdf_show_online_dialog_question )
-                .setNegativeButton( R.string.pdf_show_online_dialog_button_no, null )
-                .setPositiveButton( R.string.pdf_show_online_dialog_button_yes, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        openPDFThroughGoogleDrive(context, pdfUrl);
-                    }
-                })
-                .show();
+//        new AlertDialog.Builder( context )
+//                .setTitle( R.string.pdf_show_online_dialog_title )
+//                .setMessage( R.string.pdf_show_online_dialog_question )
+//                .setNegativeButton( R.string.pdf_show_online_dialog_button_no, null )
+//                .setPositiveButton( R.string.pdf_show_online_dialog_button_yes, new DialogInterface.OnClickListener() {
+//                    @Override
+//                    public void onClick(DialogInterface dialog, int which) {
+//                        openPDFThroughGoogleDrive(context, pdfUrl);
+//                    }
+//                })
+//                .show();
+        sPref = context.getSharedPreferences("MyPref", MODE_PRIVATE);
+        Boolean savedBoolean = sPref.getBoolean("Key", false);
+        if (savedBoolean){
+            openPDFThroughGoogleDrive(context, pdfUrl);
+        } else {
+            new MaterialDialog.Builder(context)
+                    .iconRes(R.drawable.ic_cloud_queue_black_24dp)
+                    .limitIconToDefaultSize()
+                    .title(R.string.pdf_show_online_dialog_title)
+                    .content(R.string.pdf_show_online_dialog_question)
+                    .positiveText(R.string.pdf_show_online_dialog_button_yes)
+                    .onPositive(new MaterialDialog.SingleButtonCallback() {
+                        @Override
+                        public void onClick(@NonNull MaterialDialog dialog, @NonNull DialogAction which) {
+                            openPDFThroughGoogleDrive(context, pdfUrl);
+                        }
+                    })
+                    .negativeText(R.string.pdf_show_online_dialog_button_no)
+                    .onAny(new MaterialDialog.SingleButtonCallback() {
+                        @Override
+                        public void onClick(@NonNull MaterialDialog dialog, @NonNull DialogAction which) {
+                            saveCheckbox(context, dialog.isPromptCheckBoxChecked());
+                        }
+                    })
+                    .checkBoxPromptRes(R.string.dont_ask_again, false, null)
+                    .show();
+        }
+    }
+
+    private static void saveCheckbox(Context context, Boolean check) {
+        sPref = context.getSharedPreferences("MyPref", MODE_PRIVATE);
+        SharedPreferences.Editor ed = sPref.edit();
+        ed.putBoolean("Key", check);
+        ed.commit();
     }
 
     /**

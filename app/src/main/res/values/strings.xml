@@ -375,6 +375,7 @@
     <string name="num_fri41135">41135</string>
     <string name="rate_us">Rate our App</string>
     <string name="rateuri">market://details?id=com.tibro.brickcatalog</string>
+    <string name="dont_ask_again">Dont ask again</string>
 
 
 </resources>
