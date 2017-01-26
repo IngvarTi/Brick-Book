@@ -11,9 +11,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
-import com.appodeal.ads.Appodeal;
 import com.dd.CircularProgressButton;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
 
@@ -21,6 +25,7 @@ public class Architecture extends AppCompatActivity implements View.OnClickListe
 
     private static final String TAG = "MainActivity";
     private Tracker mTracker;
+    private AdView adView;
 
     String strArc21022 = new String();
     String strArc21023 = new String();
@@ -40,6 +45,30 @@ public class Architecture extends AppCompatActivity implements View.OnClickListe
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        adView = new AdView(this);
+        adView.setAdUnitId(getString(R.string.banner_ad_unit_id));
+        adView.setAdSize(AdSize.SMART_BANNER);
+
+        adView.setVisibility(View.GONE);
+
+        LinearLayout layout = (LinearLayout)findViewById(R.id.architectLayout);
+
+        // Добавление в разметку экземпляра adView.
+        layout.addView(adView);
+        AdRequest adRequest = new  AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .build();
+
+
+        adView.loadAd(adRequest);
+
+        adView.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                adView.setVisibility(View.VISIBLE);
+            }
+        });
+
 //        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
 //        fab.setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -51,13 +80,13 @@ public class Architecture extends AppCompatActivity implements View.OnClickListe
 
 
 //        Appodeal.setBannerViewId(R.id.appodealBannerView);
-        String appKey = "fa7b74c8278d1e0f3ec32d243a7e151466b88968bfc3fe2f";
-        Appodeal.initialize(this, appKey, Appodeal.BANNER);
-//        Appodeal.setTesting(true);
-
-
-
-        Appodeal.show(this, Appodeal.BANNER_BOTTOM);
+//        String appKey = "fa7b74c8278d1e0f3ec32d243a7e151466b88968bfc3fe2f";
+//        Appodeal.initialize(this, appKey, Appodeal.BANNER);
+////        Appodeal.setTesting(true);
+//
+//
+//
+//        Appodeal.show(this, Appodeal.BANNER_BOTTOM);
 
         // [START shared_tracker]
         // Obtain the shared Tracker instance.
@@ -202,11 +231,11 @@ public class Architecture extends AppCompatActivity implements View.OnClickListe
 
     }
 
-    @Override
-    public void onResume() {
-        super.onResume();
-        Appodeal.onResume(this, Appodeal.BANNER);
-   }
+//    @Override
+//    public void onResume() {
+//        super.onResume();
+//        Appodeal.onResume(this, Appodeal.BANNER);
+//   }
 
     public void setButtonStyle( final CircularProgressButton buttonOpen,
                                 final CircularProgressButton buttonDelete, final String jonal ) {

@@ -13,16 +13,21 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Spinner;
 
-import com.appodeal.ads.Appodeal;
 import com.dd.CircularProgressButton;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
 
 public class City extends AppCompatActivity implements View.OnClickListener {
 
     private Tracker mTracker;
+    private AdView adView;
 
     String[] two = {"1/2", "2/2"};
     String[] three = {"1/3", "2/3", "3/3"};
@@ -84,6 +89,30 @@ public class City extends AppCompatActivity implements View.OnClickListener {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        adView = new AdView(this);
+        adView.setAdUnitId(getString(R.string.banner_ad_unit_id));
+        adView.setAdSize(AdSize.SMART_BANNER);
+
+        adView.setVisibility(View.GONE);
+
+        LinearLayout layout = (LinearLayout)findViewById(R.id.cityLayout);
+
+        // Добавление в разметку экземпляра adView.
+        layout.addView(adView);
+        AdRequest adRequest = new  AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .build();
+
+
+        adView.loadAd(adRequest);
+
+        adView.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                adView.setVisibility(View.VISIBLE);
+            }
+        });
+
 //        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
 //        fab.setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -93,11 +122,11 @@ public class City extends AppCompatActivity implements View.OnClickListener {
 //            }
 //        });
 
-        String appKey = "fa7b74c8278d1e0f3ec32d243a7e151466b88968bfc3fe2f";
-        Appodeal.initialize(this, appKey, Appodeal.BANNER);
-//        Appodeal.setTesting(true);
-
-        Appodeal.show(this, Appodeal.BANNER_BOTTOM);
+//        String appKey = "fa7b74c8278d1e0f3ec32d243a7e151466b88968bfc3fe2f";
+//        Appodeal.initialize(this, appKey, Appodeal.BANNER);
+////        Appodeal.setTesting(true);
+//
+//        Appodeal.show(this, Appodeal.BANNER_BOTTOM);
 
         // [START shared_tracker]
         // Obtain the shared Tracker instance.
@@ -1718,11 +1747,11 @@ public class City extends AppCompatActivity implements View.OnClickListener {
         });
     }
 
-    @Override
-    public void onResume() {
-        super.onResume();
-        Appodeal.onResume(this, Appodeal.BANNER);
-    }
+//    @Override
+//    public void onResume() {
+//        super.onResume();
+//        Appodeal.onResume(this, Appodeal.BANNER);
+//    }
 
 
     public void setButtonStyle( final CircularProgressButton buttonOpen,

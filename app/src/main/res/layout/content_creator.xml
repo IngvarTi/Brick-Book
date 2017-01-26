@@ -5,11 +5,10 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.tibro.brickcatalog.Creator"
     tools:showIn="@layout/activity_creator"
+    android:id="@+id/creatorLayout"
     android:orientation="vertical">
 
     <ScrollView
@@ -21,7 +20,9 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/activity_horizontal_instruction_margin"
+            android:paddingRight="@dimen/activity_horizontal_instruction_margin">
 
             <RelativeLayout
                 android:layout_width="match_parent"

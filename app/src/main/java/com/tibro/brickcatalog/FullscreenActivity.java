@@ -11,7 +11,6 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.appodeal.ads.Appodeal;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
 
@@ -116,13 +115,13 @@ public class FullscreenActivity extends AppCompatActivity {
         // while interacting with the UI.
 //        findViewById(R.id.dummy_button).setOnTouchListener(mDelayHideTouchListener);
 
-        String appKey = "fa7b74c8278d1e0f3ec32d243a7e151466b88968bfc3fe2f";
-        Appodeal.initialize(this, appKey, Appodeal.BANNER);
-//        Appodeal.setTesting(true);
-
-
-
-        Appodeal.show(this, Appodeal.BANNER_BOTTOM);
+//        String appKey = "fa7b74c8278d1e0f3ec32d243a7e151466b88968bfc3fe2f";
+//        Appodeal.initialize(this, appKey, Appodeal.BANNER);
+////        Appodeal.setTesting(true);
+//
+//
+//
+//        Appodeal.show(this, Appodeal.BANNER_BOTTOM);
 
         AnalyticsApplication application = (AnalyticsApplication) getApplication();
         mTracker = application.getDefaultTracker();
@@ -144,11 +143,11 @@ public class FullscreenActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    public void onResume() {
-        super.onResume();
-        Appodeal.onResume(this, Appodeal.BANNER);
-    }
+//    @Override
+//    public void onResume() {
+//        super.onResume();
+//        Appodeal.onResume(this, Appodeal.BANNER);
+//    }
 
 
     @Override

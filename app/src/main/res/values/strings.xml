@@ -7,6 +7,8 @@
 
     <string name="noInternet">No internet connection</string>
 
+    <string name="banner_ad_unit_id">ca-app-pub-6526618984663462/6824438634</string>
+
     <string name="pdf_show_local_progress_title">Downloading pdf file from the server</string>
     <string name="pdf_show_online_dialog_title">Open instruction in GoogleDrive ?</string>
     <string name="pdf_show_online_dialog_question">On your device not installed the program supports the format of pdf, Lego instruction will be opened with the help of cloud service GoogleDrive.</string>
