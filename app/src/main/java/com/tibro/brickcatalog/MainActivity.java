@@ -209,7 +209,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 // [START custom_event]
                 mTracker.send(new HitBuilders.EventBuilder()
                         .setCategory("Action")
-                        .setAction("Go tarWars")
+                        .setAction("Go StarWars")
                         .build());
                 // [END custom_event]
                 break;
